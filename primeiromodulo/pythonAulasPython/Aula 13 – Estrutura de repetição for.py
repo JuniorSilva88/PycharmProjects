@@ -3,22 +3,22 @@ que é uma estrutura versátil e simples de entender. Por exemplo:
 for c in range(0, 4):
 print(c)
 print(‘Acabou’)''')
-for c in range(1, 7): #ler até o nº6
+for c in range(1, 7):  # ler até nº 0 ao nº6
     print('Hello')
 print('The End')
 
-for c in range(6, 0, -1): #ler do nº 6 até o nº 0
+for c in range(6, -1, -1):  # ler do nº 6 até o nº 0
     print(c)
 
 n = int(input('Digige um numero : '))
-for c in range(0, n+1): # ler em ordem crescente a partir do nº digitado
+for c in range(0, n + 1):  # ler em ordem crescente a partir do nº digitado
     print(c)
 print('Fim')
 
 i = int(input('Início: '))
 f = int(input(" Fim: "))
 p = int(input(" passo: "))
-for c in range(i, f+1, p):
+for c in range(i, f + 1, p):  # progreçao
     print(c)
 print('Fim')
 
