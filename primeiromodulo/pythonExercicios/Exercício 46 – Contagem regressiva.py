@@ -8,4 +8,3 @@ for c in range(10, -1, -1):  # forma para contagem regressiva, de 10 ao 0
     print(c)
 print('')
 print('\033[33;1m🎆  🎆  🎆  🎆  🎆  🎆  🎆  🎆 \033[m')  # fogos de artifício
-
