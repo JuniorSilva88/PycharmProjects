@@ -1,9 +1,10 @@
 from time import sleep
 print('CRIE UM PROGRAMA QUE LEIA 2 VALORES E MOSTRE UM MENU; O PROGRAMA TEM QUE REALIZAR AS OPERAÇÃOES SOLICITADAS')
+print('\033[32;1m-=\033[m' * 20)
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite outro valor: '))
 opção = 0
-print('=-' * 20)
+print('\033[32;1m-=\033[m' * 20)
 while opção != 5:
     print('''[ 1 ] - SOMAR : [ 2 ] - MULTIPLICAR : [ 3 ] - MAIOR :[ 4 ] - NOVOS VALORES: [ 5 ] - SAIR: ''')
     opção = int(input('Dentre as opções, qual você escolhe? '))
@@ -28,5 +29,5 @@ while opção != 5:
     elif opção == 5:
         print('Finalizando...')
     sleep(1)
-print('=-' * 20)
+print('\033[32;1m-=\033[m' * 20)
 print('Fim do Programa. ')

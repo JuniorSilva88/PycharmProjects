@@ -10,10 +10,10 @@ print('¬=' * 15)
 print('{} ➡ {}'.format(termo1, termo2), end='')
 contador = 3
 while contador <= numero:
-     termo3 = termo1 + termo2
-     print(' ➡ {}'.format(termo3), end='')
-     contador += 1
-     termo1 = termo2
-     termo2 = termo3
+    termo3 = termo1 + termo2
+    print(' ➡ {}'.format(termo3), end='')
+    contador += 1
+    termo1 = termo2
+    termo2 = termo3
 print(' \nFim')
 print('¬=' * 15)

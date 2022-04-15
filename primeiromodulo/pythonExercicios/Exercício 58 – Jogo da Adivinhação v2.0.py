@@ -3,7 +3,7 @@ from time import sleep
 print('''Melhore o jogo do DESAFIO 28 onde o computador vai “pensar” em um número entre 0 e 10. 
 Só que agora o jogador vai tentar adivinhar até acertar, mostrando no final quantos palpites foram 
 necessários para vencer.''')
-print('*-' * 20)
+print('\033[32;1m-=\033[m' * 20)
 pc = randint(0, 10)
 print('Vou escolher entre 0 e 10: Quantas jogadas você precisa para adivinhar? ')
 print(' 🤔 🤔 🤔')
